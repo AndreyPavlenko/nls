@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.aap.nls.eclipse.feature"
+      label="NLS"
+      version="1.0.0"
+      provider-name="Andrey Pavlenko">
+
+   <description url="https://github.com/AndreyPavlenko/nls">
+      Java sources internationalization plugin for Eclipse
+   </description>
+
+   <copyright>
+      Copyright (c) 2011 Andrey Pavlenko.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      Eclipse Public License - v 1.0
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.ui.ide"/>
+   </requires>
+
+   <plugin
+         id="com.aap.nls.eclipse"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

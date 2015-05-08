@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.aap.nls.eclipse.feature_1.0.1.jar" id="com.aap.nls.eclipse.feature" version="1.0.1">
+      <category name="Internationalization"/>
+   </feature>
+   <category-def name="Internationalization" label="Internationalization"/>
+</site>
